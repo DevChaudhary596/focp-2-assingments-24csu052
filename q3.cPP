@@ -35,6 +35,7 @@ void replacevowel(string sample){
             ch = '*';
         }
         }
+        cout<<sample;
 }
 
 int main() {
