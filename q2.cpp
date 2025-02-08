@@ -47,7 +47,7 @@ int main(){
    for(int i=a;i>=0;i--){
     cout<<arr[i]<<" ";
    }
-   cout<<"\n"
+   cout<<"\n";
    findSecondSmallestLargest(arr,a);
     
     return 0;
