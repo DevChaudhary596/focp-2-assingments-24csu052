@@ -2,10 +2,6 @@
 #include<limits.h>
 using namespace std;
 void findSecondSmallestLargest(int arr[], int n) {
-    if (n < 2) {
-        cout << "Array should have at least two elements." << endl;
-        return;
-    }
     
     int smallest = INT_MAX, secondSmallest = INT_MAX;
     int largest = INT_MIN, secondLargest = INT_MIN;
